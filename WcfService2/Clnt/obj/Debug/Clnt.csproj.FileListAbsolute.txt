@@ -1,0 +1,34 @@
+C:\Users\pinio\OneDrive\Documents\Visual Studio 2017\Projects\WcfService2\Clnt\bin\Clnt.dll.config
+C:\Users\pinio\OneDrive\Documents\Visual Studio 2017\Projects\WcfService2\Clnt\bin\Clnt.dll
+C:\Users\pinio\OneDrive\Documents\Visual Studio 2017\Projects\WcfService2\Clnt\bin\Clnt.pdb
+C:\Users\pinio\OneDrive\Documents\Visual Studio 2017\Projects\WcfService2\Clnt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\pinio\OneDrive\Documents\Visual Studio 2017\Projects\WcfService2\Clnt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\pinio\OneDrive\Documents\Visual Studio 2017\Projects\WcfService2\Clnt\obj\Debug\Clnt.csproj.CoreCompileInputs.cache
+C:\Users\pinio\OneDrive\Documents\Visual Studio 2017\Projects\WcfService2\Clnt\obj\Debug\Clnt.dll
+C:\Users\pinio\OneDrive\Documents\Visual Studio 2017\Projects\WcfService2\Clnt\obj\Debug\Clnt.pdb
+C:\Users\pinio\OneDrive\Documents\Visual Studio 2017\Projects\WcfService2\Clnt\obj\Debug\Clnt.csprojResolveAssemblyReference.cache
+C:\prpproj\WcfService2\Clnt\bin\Clnt.dll.config
+C:\prpproj\WcfService2\Clnt\bin\Clnt.dll
+C:\prpproj\WcfService2\Clnt\bin\Clnt.pdb
+C:\prpproj\WcfService2\Clnt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\prpproj\WcfService2\Clnt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\prpproj\WcfService2\Clnt\obj\Debug\Clnt.csproj.CoreCompileInputs.cache
+C:\prpproj\WcfService2\Clnt\obj\Debug\Clnt.dll
+C:\prpproj\WcfService2\Clnt\obj\Debug\Clnt.pdb
+C:\prpproj\WcfService2\Clnt\bin\EntityFramework.dll
+C:\prpproj\WcfService2\Clnt\bin\EntityFramework.SqlServer.dll
+C:\prpproj\WcfService2\Clnt\bin\EntityFramework.xml
+C:\prpproj\WcfService2\Clnt\bin\EntityFramework.SqlServer.xml
+C:\prpprojtest\WcfService2\Clnt\bin\Clnt.dll.config
+C:\prpprojtest\WcfService2\Clnt\bin\Clnt.dll
+C:\prpprojtest\WcfService2\Clnt\bin\Clnt.pdb
+C:\prpprojtest\WcfService2\Clnt\bin\EntityFramework.dll
+C:\prpprojtest\WcfService2\Clnt\bin\EntityFramework.SqlServer.dll
+C:\prpprojtest\WcfService2\Clnt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\prpprojtest\WcfService2\Clnt\bin\EntityFramework.xml
+C:\prpprojtest\WcfService2\Clnt\bin\EntityFramework.SqlServer.xml
+C:\prpprojtest\WcfService2\Clnt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\prpprojtest\WcfService2\Clnt\obj\Debug\Clnt.csproj.CoreCompileInputs.cache
+C:\prpprojtest\WcfService2\Clnt\obj\Debug\Clnt.dll
+C:\prpprojtest\WcfService2\Clnt\obj\Debug\Clnt.pdb
+C:\prpprojtest\WcfService2\Clnt\obj\Debug\Clnt.csprojResolveAssemblyReference.cache

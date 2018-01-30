@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:2401/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:2401/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:2401/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfService2" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_dodajGatunek_InputMessage">
+    <wsdl:part name="parameters" element="tns:dodajGatunek" />
+  </wsdl:message>
+  <wsdl:message name="IService1_dodajGatunek_OutputMessage">
+    <wsdl:part name="parameters" element="tns:dodajGatunekResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_edytujGatunek_InputMessage">
+    <wsdl:part name="parameters" element="tns:edytujGatunek" />
+  </wsdl:message>
+  <wsdl:message name="IService1_edytujGatunek_OutputMessage">
+    <wsdl:part name="parameters" element="tns:edytujGatunekResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_usunGatunek_InputMessage">
+    <wsdl:part name="parameters" element="tns:usunGatunek" />
+  </wsdl:message>
+  <wsdl:message name="IService1_usunGatunek_OutputMessage">
+    <wsdl:part name="parameters" element="tns:usunGatunekResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_dodajProducenta_InputMessage">
+    <wsdl:part name="parameters" element="tns:dodajProducenta" />
+  </wsdl:message>
+  <wsdl:message name="IService1_dodajProducenta_OutputMessage">
+    <wsdl:part name="parameters" element="tns:dodajProducentaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_edytujProducenta_InputMessage">
+    <wsdl:part name="parameters" element="tns:edytujProducenta" />
+  </wsdl:message>
+  <wsdl:message name="IService1_edytujProducenta_OutputMessage">
+    <wsdl:part name="parameters" element="tns:edytujProducentaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_usunProducenta_InputMessage">
+    <wsdl:part name="parameters" element="tns:usunProducenta" />
+  </wsdl:message>
+  <wsdl:message name="IService1_usunProducenta_OutputMessage">
+    <wsdl:part name="parameters" element="tns:usunProducentaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_dodajGre_InputMessage">
+    <wsdl:part name="parameters" element="tns:dodajGre" />
+  </wsdl:message>
+  <wsdl:message name="IService1_dodajGre_OutputMessage">
+    <wsdl:part name="parameters" element="tns:dodajGreResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_edytujGre_InputMessage">
+    <wsdl:part name="parameters" element="tns:edytujGre" />
+  </wsdl:message>
+  <wsdl:message name="IService1_edytujGre_OutputMessage">
+    <wsdl:part name="parameters" element="tns:edytujGreResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_usunGre_InputMessage">
+    <wsdl:part name="parameters" element="tns:usunGre" />
+  </wsdl:message>
+  <wsdl:message name="IService1_usunGre_OutputMessage">
+    <wsdl:part name="parameters" element="tns:usunGreResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_wyswietlGry_InputMessage">
+    <wsdl:part name="parameters" element="tns:wyswietlGry" />
+  </wsdl:message>
+  <wsdl:message name="IService1_wyswietlGry_OutputMessage">
+    <wsdl:part name="parameters" element="tns:wyswietlGryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_dodajOcene_InputMessage">
+    <wsdl:part name="parameters" element="tns:dodajOcene" />
+  </wsdl:message>
+  <wsdl:message name="IService1_dodajOcene_OutputMessage">
+    <wsdl:part name="parameters" element="tns:dodajOceneResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_edytujOcene_InputMessage">
+    <wsdl:part name="parameters" element="tns:edytujOcene" />
+  </wsdl:message>
+  <wsdl:message name="IService1_edytujOcene_OutputMessage">
+    <wsdl:part name="parameters" element="tns:edytujOceneResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_wyswietlGre_InputMessage">
+    <wsdl:part name="parameters" element="tns:wyswietlGre" />
+  </wsdl:message>
+  <wsdl:message name="IService1_wyswietlGre_OutputMessage">
+    <wsdl:part name="parameters" element="tns:wyswietlGreResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ustawPlatforme_InputMessage">
+    <wsdl:part name="parameters" element="tns:ustawPlatforme" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ustawPlatforme_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ustawPlatformeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_wyswietlProducentow_InputMessage">
+    <wsdl:part name="parameters" element="tns:wyswietlProducentow" />
+  </wsdl:message>
+  <wsdl:message name="IService1_wyswietlProducentow_OutputMessage">
+    <wsdl:part name="parameters" element="tns:wyswietlProducentowResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_wyswietlGatunki_InputMessage">
+    <wsdl:part name="parameters" element="tns:wyswietlGatunki" />
+  </wsdl:message>
+  <wsdl:message name="IService1_wyswietlGatunki_OutputMessage">
+    <wsdl:part name="parameters" element="tns:wyswietlGatunkiResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="dodajGatunek">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/dodajGatunek" message="tns:IService1_dodajGatunek_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/dodajGatunekResponse" message="tns:IService1_dodajGatunek_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="edytujGatunek">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/edytujGatunek" message="tns:IService1_edytujGatunek_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/edytujGatunekResponse" message="tns:IService1_edytujGatunek_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="usunGatunek">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/usunGatunek" message="tns:IService1_usunGatunek_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/usunGatunekResponse" message="tns:IService1_usunGatunek_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="dodajProducenta">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/dodajProducenta" message="tns:IService1_dodajProducenta_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/dodajProducentaResponse" message="tns:IService1_dodajProducenta_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="edytujProducenta">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/edytujProducenta" message="tns:IService1_edytujProducenta_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/edytujProducentaResponse" message="tns:IService1_edytujProducenta_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="usunProducenta">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/usunProducenta" message="tns:IService1_usunProducenta_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/usunProducentaResponse" message="tns:IService1_usunProducenta_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="dodajGre">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/dodajGre" message="tns:IService1_dodajGre_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/dodajGreResponse" message="tns:IService1_dodajGre_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="edytujGre">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/edytujGre" message="tns:IService1_edytujGre_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/edytujGreResponse" message="tns:IService1_edytujGre_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="usunGre">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/usunGre" message="tns:IService1_usunGre_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/usunGreResponse" message="tns:IService1_usunGre_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="wyswietlGry">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/wyswietlGry" message="tns:IService1_wyswietlGry_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/wyswietlGryResponse" message="tns:IService1_wyswietlGry_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="dodajOcene">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/dodajOcene" message="tns:IService1_dodajOcene_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/dodajOceneResponse" message="tns:IService1_dodajOcene_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="edytujOcene">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/edytujOcene" message="tns:IService1_edytujOcene_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/edytujOceneResponse" message="tns:IService1_edytujOcene_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="wyswietlGre">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/wyswietlGre" message="tns:IService1_wyswietlGre_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/wyswietlGreResponse" message="tns:IService1_wyswietlGre_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ustawPlatforme">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ustawPlatforme" message="tns:IService1_ustawPlatforme_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ustawPlatformeResponse" message="tns:IService1_ustawPlatforme_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="wyswietlProducentow">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/wyswietlProducentow" message="tns:IService1_wyswietlProducentow_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/wyswietlProducentowResponse" message="tns:IService1_wyswietlProducentow_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="wyswietlGatunki">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/wyswietlGatunki" message="tns:IService1_wyswietlGatunki_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/wyswietlGatunkiResponse" message="tns:IService1_wyswietlGatunki_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="dodajGatunek">
+      <soap:operation soapAction="http://tempuri.org/IService1/dodajGatunek" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="edytujGatunek">
+      <soap:operation soapAction="http://tempuri.org/IService1/edytujGatunek" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="usunGatunek">
+      <soap:operation soapAction="http://tempuri.org/IService1/usunGatunek" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dodajProducenta">
+      <soap:operation soapAction="http://tempuri.org/IService1/dodajProducenta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="edytujProducenta">
+      <soap:operation soapAction="http://tempuri.org/IService1/edytujProducenta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="usunProducenta">
+      <soap:operation soapAction="http://tempuri.org/IService1/usunProducenta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dodajGre">
+      <soap:operation soapAction="http://tempuri.org/IService1/dodajGre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="edytujGre">
+      <soap:operation soapAction="http://tempuri.org/IService1/edytujGre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="usunGre">
+      <soap:operation soapAction="http://tempuri.org/IService1/usunGre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="wyswietlGry">
+      <soap:operation soapAction="http://tempuri.org/IService1/wyswietlGry" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dodajOcene">
+      <soap:operation soapAction="http://tempuri.org/IService1/dodajOcene" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="edytujOcene">
+      <soap:operation soapAction="http://tempuri.org/IService1/edytujOcene" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="wyswietlGre">
+      <soap:operation soapAction="http://tempuri.org/IService1/wyswietlGre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ustawPlatforme">
+      <soap:operation soapAction="http://tempuri.org/IService1/ustawPlatforme" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="wyswietlProducentow">
+      <soap:operation soapAction="http://tempuri.org/IService1/wyswietlProducentow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="wyswietlGatunki">
+      <soap:operation soapAction="http://tempuri.org/IService1/wyswietlGatunki" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:2401/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
